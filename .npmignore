@@ -1,0 +1,41 @@
+# Source files
+*.ts
+!*.d.ts
+
+# Configuration
+.eslintrc.js
+.prettierrc
+tsconfig.json
+jest.config.js
+gulpfile.js
+
+# Development
+test/
+coverage/
+.nyc_output/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation source
+docs/
+
+# Build artifacts
+*.tsbuildinfo
